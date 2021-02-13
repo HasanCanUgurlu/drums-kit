@@ -179,6 +179,7 @@ function App() {
     return () => {
       document.removeEventListener("keydown", keyPressHandler);
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   return (
     <div className="App">
